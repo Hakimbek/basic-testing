@@ -17,6 +17,7 @@ const testCases = [
   { a: 2, b: 3, action: Action.Exponentiate, expected: 8 },
   { a: 3, b: 2, action: Action.Exponentiate, expected: 9 },
   { a: 'a', b: 'b', action: Action.Exponentiate, expected: null },
+  { a: 3, b: 2, action: '$', expected: null },
 ];
 
 describe('simpleCalculator', () => {
